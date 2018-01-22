@@ -25,6 +25,7 @@ namespace todoList.Models
         {
         }
 
+        public DbSet<Yap> yapilacaklar { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
